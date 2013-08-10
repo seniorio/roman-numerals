@@ -21,4 +21,4 @@ $ ./bin/roman 10
 
 ## Warning!
 
-Certainly not supposed to be a good solution.
+Not a good solution, just a bit of fun with regex.
