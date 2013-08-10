@@ -3,7 +3,7 @@
 class Numeralizor
 {
     /**
-     * @param  int $n
+     * @param  int    $n
      * @return string
      */
     public function toNumerals($n)
