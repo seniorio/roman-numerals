@@ -1,6 +1,6 @@
 <?php
 
-namespace spec;
+namespace spec\Seniorio;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -9,7 +9,7 @@ class NumeralizorSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('Numeralizor');
+        $this->shouldHaveType('Seniorio\Numeralizor');
     }
 
     function it_should_convert_numbers_to_numerals()

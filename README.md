@@ -6,6 +6,8 @@ One-way Arabic-to-Roman numerals converter using regex for a laugh.
 ```php
 require_once __DIR__.'/../vendor/autoload.php';
 
+use Seniorio\Numeralizor;
+
 $numeralizor = new Numeralizor;
 
 echo $numeralizor->arabicToRoman($argv[1])."\n";
