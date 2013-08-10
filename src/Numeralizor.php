@@ -6,7 +6,7 @@ class Numeralizor
      * @param  int $n
      * @return string
      */
-    public function toNumerals($n)
+    public function arabicToRoman($n)
     {
         $n = str_repeat('I', $n);
 
