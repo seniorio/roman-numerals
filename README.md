@@ -8,7 +8,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 $numeralizor = new Numeralizor;
 
-echo $numeralizor->toNumerals($argv[1])."\n";
+echo $numeralizor->arabicToRoman($argv[1])."\n";
 
 exit;
 ```
